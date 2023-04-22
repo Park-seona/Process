@@ -38,14 +38,6 @@ header .header_box {
     width: 1920px;
     height: 800px;
 }
-header .header_box ul.white_img {
-    position: absolute;
-    left: 915px;
-    top: 0;
-    width: 1005px;
-    height: 800px;
-    background-color: #ddd;
-}
 header .header_box ul.green_img {
     position: absolute;
     width: 915px;
@@ -90,6 +82,7 @@ header .header_box ul.gnb>li {
     width: 10%;
     position: relative;
     padding-right: 50px;
+    z-index: 20;
 }
 header .header_box ul.gnb>li>a {
     display: block;
@@ -107,11 +100,11 @@ header .header_box ul.gnb>li:hover>a {
     text-underline-position: under;
     text-decoration-color: #9BA695;
 }
-header .header_box h2 {
+header .header_box .clover_img {
     position: absolute;
-    left: 1082px;
-    top: 736px;
-    color: #fff;
+    left: 915px;
+    top: 0;
+    z-index: 15;
 }
 .process {
     width: 100%;
@@ -644,9 +637,14 @@ header .header_box h2 {
     left: 460px;
     top: 258px;
     width: 1000px;
-    height: 600px;
+    height: 574px;
     background-color: #27483E;
     border-radius: 25px;
+}
+.main_page .main_img {
+    position: absolute;
+    left: 469px;
+    top: 268px;
 }
 .brand_page {
     width: 100%;
@@ -726,14 +724,50 @@ header .header_box h2 {
     width: 443px;
     height: 69px;
 }
-.about_page .about_box {
+.about_page .about_box1 {
     position: absolute;
     left: 485px;
     top: 100px;
-    width: 1050px;
+    width: 1000px;
     height: 500px;
     background-color: #27483E;
     border-radius: 25px;
+    z-index: 6;
+}
+.about_page .white_box {
+    position: absolute;
+    left: 495px;
+    top: 109px;
+    width: 982px;
+    height: 480px;
+    background-color: #fff;
+    border-radius: 20px;
+    z-index: 9;
+}
+.about_page .about1_img {
+    position: absolute;
+    left: 495px;
+    top: 109px;
+    z-index: 10;
+}
+.about_page .about_box2 {
+    position: absolute;
+    left: 1607px;
+    top: 100px;
+    width: 1000px;
+    height: 500px;
+    background-color: #27483E;
+    border-radius: 25px;
+}
+.about_page .about2_img {
+    position: absolute;
+    left: 1616px;
+    top: 109px;
+    z-index: 10;
+}
+.about_page .about2_img img {
+    width: 980px;
+    height: 480px;
 }
 .port_page {
     width: 100%;
@@ -759,10 +793,19 @@ header .header_box h2 {
     position: absolute;
     left: 485px;
     top: 100px;
-    width: 1050px;
+    width: 1000px;
     height: 500px;
     background-color: #27483E;
     border-radius: 25px;
+}
+.port_page .portpolio_img {
+    position: absolute;
+    left: 494px;
+    top: 110px;
+}
+.port_page .portpolio_img img {
+    width: 980px;
+    height: 480px;
 }
 .exper_page {
     width: 100%;
@@ -788,19 +831,48 @@ header .header_box h2 {
     position: absolute;
     left: 1609px;
     top: 100px;
-    width: 1050px;
+    width: 1000px;
     height: 500px;
     background-color: #27483E;
     border-radius: 25px;
+}
+.exper_page .white_box {
+    position: absolute;
+    left: 494px;
+    top: 110px;
+    width: 980px;
+    height: 480px;
+    background-color: #fff;
+    border-radius: 20px;
+    z-index: 9;
+}
+.exper_page .exper1_img {
+    position: absolute;
+    left: 494px;
+    top: 110px;
+    z-index: 10;
+}
+.exper_page .exper1_img img {
+    width: px;
+    height: px;
 }
 .exper_page .exper_box2 {
     position: absolute;
     left: 485px;
     top: 100px;
-    width: 1050px;
+    width: 1000px;
     height: 500px;
     background-color: #27483E;
     border-radius: 25px;
+}
+.exper_page .exper2_img {
+    position: absolute;
+    left: 1618px;
+    top: 109px;
+}
+.exper_page .exper2_img img {
+    width: 982px;
+    height: 480px;
 }
 .publish_page {
     width: 100%;
@@ -826,10 +898,19 @@ header .header_box h2 {
     position: absolute;
     left: 485px;
     top: 100px;
-    width: 1050px;
+    width: 1000px;
     height: 500px;
     background-color: #27483E;
     border-radius: 25px;
+}
+.publish_page .code_img {
+    position: absolute;
+    left: 494px;
+    top: 110px;
+}
+.publish_page .code_img img {
+    width: 980px;
+    height: 480px;
 }
 .epilogue {
     width: 100%;
