@@ -750,6 +750,9 @@ header .header_box .clover_img {
     top: 109px;
     z-index: 10;
 }
+.about_page .about1_img img {
+    height: 480px;
+}
 .about_page .about_box2 {
     position: absolute;
     left: 1607px;
