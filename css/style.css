@@ -801,6 +801,15 @@ header .header_box .clover_img {
     background-color: #27483E;
     border-radius: 25px;
 }
+.port_page .portwh_box {
+    position: absolute;
+    left: 494px;
+    top: 110px;
+    width: 980px;
+    height: 480px;
+    background-color: #fff;
+    border-radius: 20px;
+}
 .port_page .portpolio_img {
     position: absolute;
     left: 494px;
