@@ -45,10 +45,12 @@ header .header_box ul.green_img {
     background-color: #356254;
 }
 header .header_box ul.green_img p {
-    font-size: 130px;
+    font-size: 96px;
+    font-weight: medium;
+    font-family: 'Libre Barcode 128 Text', cursive;
     color: #fff;
-    padding-left: 380px;
-    padding-top: 590px;
+    padding-left: 663px;
+    padding-top: 668px;
 }
 header .header_box h1 {
     float: left;
