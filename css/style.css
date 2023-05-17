@@ -672,20 +672,17 @@ header .header_box .clover_img {
     position: absolute;
     right: 1558px;
     top: 100px;
-    width: 1050px;
+    width: 361px;
     height: 500px;
     background-color: #27483E;
-    border-radius: 25px;
+    border-radius: 0 25px 25px 0;
 }
-.brand_page .brand_img1 {
+.brand_page .brand_img1 img {
     position: absolute;
     right: 1568px;
     top: 107px;
-}
-.brand_page .brand_img1 img {
-    width: 1032px;
+    width: 351px;
     height: 486px;
-    border-radius: 20px;
 }
 .brand_page .brand_box2 {
     position: absolute;
@@ -759,20 +756,18 @@ header .header_box .clover_img {
     position: absolute;
     left: 1607px;
     top: 100px;
-    width: 1000px;
+    width: 361px;
     height: 500px;
     background-color: #27483E;
-    border-radius: 25px;
-}
-.about_page .about2_img {
-    position: absolute;
-    left: 1616px;
-    top: 109px;
-    z-index: 10;
+    border-radius: 25px 0 0 25px;
 }
 .about_page .about2_img img {
-    width: 980px;
-    height: 480px;
+    position: absolute;
+    left: 1616px;
+    top: 107px;
+    width: 352px;
+    height: 486px;
+    z-index: 10;
 }
 .port_page {
     width: 100%;
@@ -845,10 +840,10 @@ header .header_box .clover_img {
     position: absolute;
     left: 1609px;
     top: 100px;
-    width: 1000px;
+    width: 361px;
     height: 500px;
     background-color: #27483E;
-    border-radius: 25px;
+    border-radius: 25px 0 0 25px;
 }
 .exper_page .white_box {
     position: absolute;
@@ -881,14 +876,12 @@ header .header_box .clover_img {
     background-color: #27483E;
     border-radius: 25px;
 }
-.exper_page .exper2_img {
+.exper_page .exper2_img img {
     position: absolute;
     left: 1618px;
-    top: 109px;
-}
-.exper_page .exper2_img img {
-    width: 982px;
-    height: 480px;
+    top: 107px;
+    width: 352px;
+    height: 486px;
 }
 .publish_page {
     width: 100%;
