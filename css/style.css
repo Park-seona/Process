@@ -861,12 +861,6 @@ header .header_box .clover_img {
     top: 110px;
     z-index: 10;
 }
-.exper_page .first_img {
-    position: absolute;
-    left: 689px;
-    top: 433px;
-    z-index: 10;
-}
 .exper_page .exper_box2 {
     position: absolute;
     left: 485px;
