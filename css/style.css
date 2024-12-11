@@ -808,12 +808,12 @@ header .header_box .clover_img {
     background-color: #fff;
     border-radius: 20px;
 }
-.port_page .portpolio_img {
+.port_page .portfolio_img {
     position: absolute;
     left: 494px;
     top: 110px;
 }
-.port_page .portpolio_img img {
+.port_page .portfolio_img img {
     width: 980px;
     height: 480px;
 }
